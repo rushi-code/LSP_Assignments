@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 
     if((strcmp(argv[1],"--H")==0)||(strcmp(argv[1],"--h")==0))
     {
-        printf("Help : It is used to move all files from one directory to another directory\n");
+        printf("Help : It is used to delete all empty files from directory\n");
         exit(SUCCESS);
     }
 
