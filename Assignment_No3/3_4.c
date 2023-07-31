@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 
     else if((strcmp(argv[1],"--U")==0)||(strcmp(argv[1],"--u")==0))
     {
-        printf("Usage : Name_of_executable   Name_of_SourceDirectory   Name_of_DestDirectory\n");
+        printf("Usage : Name_of_executable   Name_of_Directory\n");
         exit(SUCCESS);
     }
 
