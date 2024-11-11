@@ -1,7 +1,9 @@
 /////////////////////////////////////////////////////////////////////////////////
 //                                                                                  
 //    **Write a program which is used to create shared library and that library     
-//      should be loaded at run time by other program**   
+//      should be loaded at run time by other program
+//      That library should contains functions to perform the arithmetic operations
+//      like addition, subtraction, Division and multiplication.**   
 //                                                              
 /////////////////////////////////////////////////////////////////////////////////
 

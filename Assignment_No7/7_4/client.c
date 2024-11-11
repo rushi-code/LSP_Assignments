@@ -1,11 +1,10 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                  
-//    **Write a program which create shared library which internally loads other     
-//      share library
-//      The inner shared library provides the function to calculate the factorial 
-//      of number. Also write program which will load that shared library and call the function**   
-//                                                              
-//////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Problem Statement :
+//          Write a program which create shared library which internally loads other shared library.
+//
+//          The inner shared library provides the function to calculate the factorial of number.
+//          also write the program which will load that shared library and call the function.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include<stdio.h>
 #include<stdlib.h>
 #include<dlfcn.h>

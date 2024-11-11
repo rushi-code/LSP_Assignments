@@ -1,3 +1,12 @@
+////////////////////////////////////////////////////////////////////////////////////////
+//Problem Statement :
+//         write a Program which is used to create shared library(.SO files) and that 
+//         library should be loaded at run time by the other program.
+//
+//         That library should contains functions that accept two file names from user
+//         and it will compare the contents of that file.
+////////////////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<dlfcn.h>

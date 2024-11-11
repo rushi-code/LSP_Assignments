@@ -1,9 +1,12 @@
-////////////////////////////////////////////////////////////////////////////////
-//                                                                                  
-//    **Write a program which is used to create 2 shared library and that library     
-//      should be loaded at run time by other program**   
-//                                                              
-/////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Problem Statement :
+//          write a Program which is used to create 2 shared library(.SO files) and that 
+//          library should be loaded at run time by the other program.
+//
+//          First library should contains function to check whether the input number is 
+//          prime or not 
+//          Second library should contains function to check whether the input number is perfect or not
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include<stdio.h>
 #include<stdlib.h>
 #include<dlfcn.h>
